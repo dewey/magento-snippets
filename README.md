@@ -16,3 +16,7 @@ Export the B2B customers from your oscommerce database using:
 Use the phpmyadmin php-array export tool and replace the `$customer` array.
 
 Every customer's usergroup with an email match on the $customer array will get changed to customer group 3 (in my case). Customize on line 22.
+
+## set-group-prices-via-sku.php
+
+Edit `needle`, `simulation` and `price`. Use simulation-mode to preview the search results.
